@@ -6,6 +6,10 @@
   font-family: "DM Sans", sans-serif;
 }
 
+body {
+  background-color: #000;
+}
+
 .sidebar {
   position: fixed;
   top: 0;
@@ -47,4 +51,38 @@
   font-weight: 600;
   font-size: 14px;
   text-decoration: none;
+}
+
+.library {
+  position: fixed;
+  top: 180px;
+  left: 0;
+  bottom: 0;
+  padding: 12px;
+  width: 300px;
+}
+
+.library .library_settings {
+  background-color: #121212;
+  border-radius: 8px;
+  padding: 16px 0 16px 16px;
+}
+
+.library .name {
+  font-size: 16px;
+  color: #b3b3b3;
+  font-weight: 600;
+  display: flex;
+}
+
+.library .criar {
+  margin: 16px 4px;
+  padding: 16px 0 16px 16px;
+  width: 90%;
+  border-radius: 8px;
+  background-color: #232323;
+}
+
+.library .criar p {
+  color: #b3b3b3;
 }
